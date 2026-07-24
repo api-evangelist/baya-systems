@@ -1,8 +1,30 @@
 aid: baya-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baya-systems.png
 name: Baya Systems
-description: 'Baya Systems is a company surfaced as a portfolio company of matrix-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: semiconductors. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Baya Systems is a semiconductor IP company accelerating intelligent compute
+  with chiplets. Backed by Matrix Partners and Intel Capital and based in Santa
+  Clara, California (with offices in Austin, Texas and Bengaluru, India), Baya
+  provides the WeaverPro software platform and the WeaveIP unified fabric and
+  cache IP portfolio. Together they let system architects analyze, design and
+  post-silicon tune optimal single-die or multi-die, chiplet-ready
+  Network-on-Chip (NoC) interconnect systems, with multi-level coherency and
+  multicast for AI acceleration scaling into petabytes per second across
+  hyperscale, enterprise, AI, automotive, GPU and IoT markets. Baya Systems does
+  not publish a public developer API, portal or SDK at this time; this API
+  Evangelist network profile tracks the company as a portfolio lead awaiting a
+  public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/baya-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Semiconductors
+- Chiplets
+- Network on Chip
+- Interconnect IP
+- Silicon IP
+- AI Compute
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,12 @@ maintainers:
 common:
 - type: Website
   url: https://bayasystems.com
+- type: DomainSecurity
+  url: security/baya-systems-domain-security.yml
+- type: LLMsTxt
+  url: llms/baya-systems-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
